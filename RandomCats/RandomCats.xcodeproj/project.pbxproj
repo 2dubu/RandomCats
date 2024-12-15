@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C6897E492D0F14D600EFFDD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897E462D0F14D600EFFDD1 /* ContentView.swift */; };
+		C6897E4A2D0F14D600EFFDD1 /* RandomCatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897E472D0F14D600EFFDD1 /* RandomCatsApp.swift */; };
+		C6897E4B2D0F14D600EFFDD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6897E432D0F14D600EFFDD1 /* Preview Assets.xcassets */; };
+		C6897E4C2D0F14D600EFFDD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6897E452D0F14D600EFFDD1 /* Assets.xcassets */; };
+		C6897E4F2D0F14DC00EFFDD1 /* RandomCatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897E4D2D0F14DC00EFFDD1 /* RandomCatsTests.swift */; };
+		C6897E532D0F14DF00EFFDD1 /* RandomCatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897E502D0F14DF00EFFDD1 /* RandomCatsUITests.swift */; };
+		C6897E542D0F14DF00EFFDD1 /* RandomCatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6897E512D0F14DF00EFFDD1 /* RandomCatsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C6DB9EF82D0A0D2D007A6376 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,28 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C6897E432D0F14D600EFFDD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6897E452D0F14D600EFFDD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6897E462D0F14D600EFFDD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6897E472D0F14D600EFFDD1 /* RandomCatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCatsApp.swift; sourceTree = "<group>"; };
+		C6897E4D2D0F14DC00EFFDD1 /* RandomCatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCatsTests.swift; sourceTree = "<group>"; };
+		C6897E502D0F14DF00EFFDD1 /* RandomCatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCatsUITests.swift; sourceTree = "<group>"; };
+		C6897E512D0F14DF00EFFDD1 /* RandomCatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C6DB9EE72D0A0D2B007A6376 /* RandomCats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomCats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DB9EF72D0A0D2D007A6376 /* RandomCatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomCatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DB9F012D0A0D2D007A6376 /* RandomCatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomCatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C6DB9EE92D0A0D2B007A6376 /* RandomCats */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RandomCats;
-			sourceTree = "<group>";
-		};
-		C6DB9EFA2D0A0D2D007A6376 /* RandomCatsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RandomCatsTests;
-			sourceTree = "<group>";
-		};
-		C6DB9F042D0A0D2D007A6376 /* RandomCatsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RandomCatsUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C6DB9EE42D0A0D2B007A6376 /* Frameworks */ = {
@@ -72,12 +71,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6897E442D0F14D600EFFDD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C6897E432D0F14D600EFFDD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C6897E482D0F14D600EFFDD1 /* RandomCats */ = {
+			isa = PBXGroup;
+			children = (
+				C6897E442D0F14D600EFFDD1 /* Preview Content */,
+				C6897E452D0F14D600EFFDD1 /* Assets.xcassets */,
+				C6897E462D0F14D600EFFDD1 /* ContentView.swift */,
+				C6897E472D0F14D600EFFDD1 /* RandomCatsApp.swift */,
+			);
+			path = RandomCats;
+			sourceTree = "<group>";
+		};
+		C6897E4E2D0F14DC00EFFDD1 /* RandomCatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6897E4D2D0F14DC00EFFDD1 /* RandomCatsTests.swift */,
+			);
+			path = RandomCatsTests;
+			sourceTree = "<group>";
+		};
+		C6897E522D0F14DF00EFFDD1 /* RandomCatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6897E502D0F14DF00EFFDD1 /* RandomCatsUITests.swift */,
+				C6897E512D0F14DF00EFFDD1 /* RandomCatsUITestsLaunchTests.swift */,
+			);
+			path = RandomCatsUITests;
+			sourceTree = "<group>";
+		};
 		C6DB9EDE2D0A0D2B007A6376 = {
 			isa = PBXGroup;
 			children = (
-				C6DB9EE92D0A0D2B007A6376 /* RandomCats */,
-				C6DB9EFA2D0A0D2D007A6376 /* RandomCatsTests */,
-				C6DB9F042D0A0D2D007A6376 /* RandomCatsUITests */,
+				C6897E482D0F14D600EFFDD1 /* RandomCats */,
+				C6897E4E2D0F14DC00EFFDD1 /* RandomCatsTests */,
+				C6897E522D0F14DF00EFFDD1 /* RandomCatsUITests */,
 				C6DB9EE82D0A0D2B007A6376 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,9 +142,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				C6DB9EE92D0A0D2B007A6376 /* RandomCats */,
-			);
 			name = RandomCats;
 			packageProductDependencies = (
 			);
@@ -130,9 +162,6 @@
 			dependencies = (
 				C6DB9EF92D0A0D2D007A6376 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				C6DB9EFA2D0A0D2D007A6376 /* RandomCatsTests */,
-			);
 			name = RandomCatsTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +181,6 @@
 			);
 			dependencies = (
 				C6DB9F032D0A0D2D007A6376 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C6DB9F042D0A0D2D007A6376 /* RandomCatsUITests */,
 			);
 			name = RandomCatsUITests;
 			packageProductDependencies = (
@@ -215,6 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6897E4B2D0F14D600EFFDD1 /* Preview Assets.xcassets in Resources */,
+				C6897E4C2D0F14D600EFFDD1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6897E492D0F14D600EFFDD1 /* ContentView.swift in Sources */,
+				C6897E4A2D0F14D600EFFDD1 /* RandomCatsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6897E4F2D0F14DC00EFFDD1 /* RandomCatsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6897E532D0F14DF00EFFDD1 /* RandomCatsUITests.swift in Sources */,
+				C6897E542D0F14DF00EFFDD1 /* RandomCatsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
